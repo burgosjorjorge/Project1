@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #f8f4f1;
+}
+
+.main-nav {
+    width: 100;
+    background: #3aa67b;
+    min-height: 30px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+
+}
+    
+
+.nav .home  {
+   display:block;
+   margin-right: 20px;
+   color: black;
+    
+}
+
+.nav .cables {
+    display: block;
+    height: auto;
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.nav li {
+    padding: 5px 10px 10px 5px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+header{
+    text-align: center;
+    background: url('../images/office.jpg') no-repeat top center;
+    background-size:cover;
+    overflow:hidden;
+    padding-top: 500px;
+}
+
+header {
+    line-height: 1.5;
+}
+
+.tag {
+    background-color: #3aa67b;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: table;
+    margin: 20px auto;
+}
+
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px ;
+    max-width: 500px;
+    text-align: center;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+}
+
+.division {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.cables {
+    display: inline-flex;
+    display: -ms-flexbox;
+    max-width: 1100px;
+}
+
+
+footer {
+    width: 100%;
+    min-height: 30px;
+}
+a.github {
+    display: inline;
+    background-size: 30px 30px;
+    transition: all .5s;
+    
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+a.gitbub {
+    background-image: url(../images/github.svg);
+
+}
