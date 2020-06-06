@@ -18,7 +18,7 @@ a {
   color: black;
 } 
 a:hover {
-  color: #6633ff;
+  color: orangered;
 } 
 
 /* Section Styles */
@@ -52,8 +52,10 @@ a:hover {
   transition: all .5s;
 } 
 .nav a:hover {
-  color: white
+  color: orangered
 }
+
+
 
 header {
   text-align: center; 
@@ -150,7 +152,7 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
-}
+} 
 a.twitter {
   background-image: url(images/twitter.svg);
 }
@@ -159,12 +161,21 @@ a.linkedin {
 }
 a.github {
   background-image: url(images/github.svg);
-}
+} 
 a.social:hover {
   opacity: 1;
 }
 .clearfix {
   clear: both;
+}
+
+h2 {
+  background-color: #3aa67b;
+  padding: 4px;
+  border: auto solid white;
+  display: table;
+  border-radius: 4px;
+  margin: 20px auto;
 }
 
 /* Styles for larger screens */

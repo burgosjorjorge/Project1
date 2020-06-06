@@ -33,7 +33,11 @@ body {
     
 }
 
-.nav .cables {
+.nav a:hover {
+    color:orangered;
+}
+
+/* .nav .cables {
     display: block;
     height: auto;
     text-align: right;
@@ -41,7 +45,7 @@ body {
     margin-bottom: 10px;
     margin-top: 10px;
 
-}
+} */
 
 .nav li {
     padding: 5px 10px 10px 5px;
@@ -74,7 +78,9 @@ header {
 }
 
 .card {
-    margin: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 20px 40px 40px ;
     max-width: 500px;
     text-align: center;
@@ -82,6 +88,10 @@ header {
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
     transition: all .5s;
+}
+
+.card:hover {
+    border-color: orangered;
 }
 
 .division {
@@ -111,7 +121,28 @@ footer ul {
     list-style-type: none;
 }
 
-a.gitbub {
+a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-right:auto;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .4;
+    transition: .5s;
+}
+
+a.github {
+    
     background-image: url(../images/github.svg);
 
+}
+
+h2 {
+    background-color: #3aa67b;
+    padding: 4px;
+    border: auto solid white;
+    display: table;
+    border-radius: 4px;
+    margin: 20px auto;
 }
