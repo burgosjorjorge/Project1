@@ -8,7 +8,7 @@ body {
 
 .nav {
     display: flex;   
-    justify-content: space-around;   
+    justify-content: space-evenly;   
     font-weight: 700;
     list-style-type: none;  
     margin: 0 auto; 
@@ -61,7 +61,7 @@ header {
     text-align: center;
     background: #fff;
     border-bottom: 4px solid #ccc;
-    border-radius: 6px;
+    border-radius: 10px;
     transition: all .5s; 
 }
 

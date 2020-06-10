@@ -1,0 +1,127 @@
+body {
+   font-family: sans-serif; 
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   background: #f8f4f1;
+}
+
+/* navigation properties */
+
+.nav {
+    background-color: #3AA67B;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.nav li {
+    padding: 20px 10px 20px 10px;
+}
+
+.nav a:hover {
+    color: orangered;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* header properties */
+
+header {
+    text-align: center;
+    background: url('images/rsz_office.jpg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.tag {
+    background-color: #3AA67B;
+    padding: 10px;
+    display: table;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: black;
+}
+
+.detail {
+    font-weight: 700;
+}
+
+.card {
+    margin: auto;
+    border-radius: 20px;
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 50px 50px 20px;
+    border-bottom: 4px solid #ccc;
+
+}
+
+.card:hover {
+    border-color: orangered;
+}
+
+.image {
+    border-radius: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-right: auto;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .4s;
+    transition: .5s;
+}
+
+a.github {
+    background-image: url(images/github.svg);
+}
+
+@media screen and (min-width: 720px) {
+    .flex {
+        display: -ms-flexbox;      /*TWEENER - IE 10 */
+        display: flex; 
+        max-width: 1200px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 0 auto;
+    } 
+
+    header {
+        min-height: 470px;
+    } 
+
+    .nav {
+        max-width: 1200px;
+        padding: 0 30px;
+    } 
+
+    main {
+        padding-top: 20px;
+    }
+
+    main p {
+        line-height: 1.6em;
+    } 
+    footer {
+        font-size: 1.3em;
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+}
+
